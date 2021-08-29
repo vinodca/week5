@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Simple web Development Template</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background: black;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+         }
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        .firstsection {
+            color: whitesmoke;
+            background-color: green;
+            height: 100px;
+            padding: 20px;
+        }
+ 
+        .secondsection {
+            background-color: tomato;
+
+            height: 160px;
+            padding: 20px;
+        }
+        .secondsection1 {
+            background-color: whitesmoke;
+            padding: 20px;
+
+            height: 100px;
+        }
+        .thirdsection {
+            color: whitesmoke;
+            background-color: black;
+            height: 100px;
+            padding: 20px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            color: whitesmoke;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 40%;
+        }
+ 
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .section {
+            height: 200px;
+            display: flex;
+            align-items: right;
+            justify-content: right;
+            max-width: 80%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 10px;
+        }
+ 
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: right;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: right;
+            color: white;
+
+        }
+    /*    .text-footer1 {
+            text-align:right;
+            padding: 60px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: inline;
+           /* justify-content:right;*/
+            color: white;
+
+        /*}*/
+     
+        * {
+           box-sizing: border-box;
+        }
+
+          .box {
+            align-items:left: auto;
+            font-size: 20px;
+            display: inline-block;
+            height: 25px;
+            color: blue;
+            padding: 30px;
+        }
+        .box1 {
+            align-items: center;
+            font-size: 20px;
+            display: inline-block;
+            height: 25px;
+            color: hotpink;
+            padding: 20px;
+        }
+          .box2 {
+            align-items: center;
+            font-size: 20px;
+            display: inline-block;
+            height: 25px;
+            color: green;
+            padding: 20px;
+        }
+          .box3 {
+            align-items: center;
+            font-size: 20px;
+            display: inline-block;
+            height: 25px;
+            color: red;
+            padding: 20px;
+        }
+          .box4 {
+            align-items: center;
+            font-size: 20px;
+            display: inline-block;
+            height: 25px;
+            color:turquoise;
+            padding: 20px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <li><a href="#web">About </a></li>
+            <li><a href="#program">Contact Me</a></li>
+            <li><a href="#course">My work</a></li>
+        </ul>
+    </nav>
+ 
+    <section class="firstsection">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web"><u>About:-</u> </h1>
+                      
+                <p class="text-small">
+                    HTML stands for HyperText Markup Language.
+                    It is used to design web pages using a markup
+                    language. HTML is the combination of Hypertext
+                    and Markup language. Hypertext defines the
+                    link between the web pages. A markup language
+                    is used to define the text document within tag
+                    which defines the structure of web pages.
+                    HTML is a markup language that is used by the
+                    browser to manipulate text, images, and other
+                    content to display it in the required format.
+                </p>
+ 
+ 
+            </div>
+    </section>
+ 
+     <section class="secondsection1">
+            <div class="firstHalf">
+                <h1 class="text-big" id="Contact Me">
+                    <u>Contact Me :-</u>
+                </h1>
+                  <div class="box" id="one">Facebooks</div>
+                  <div class="box1" id="two"> Github</div>
+                  <div class="box2" id="three">LinkedIn</div>
+                  <div class="box3" id="four">Twitter</div>
+                  <div class="box4" id="five">Call me</div>
+                <p class="text-small">
+                </p>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+            <div class="firstHalf">
+                <h1 class="text-big" id="My work">
+                    <u>My Work:-</u>
+            </h1>
+            <ol>
+                <li>HTML is the foundation of webpages, is used for webpage development by structuring websites and web apps.</li>
+                <br><li>HTML is the foundation of webpages, is used for webpage development by structuring websites and web apps.</li>
+                <br><li>HTML is the foundation of webpages, is used for webpage development by structuring websites and web apps.</li>
+                <br><li>HTML is the foundation of webpages, is used for webpage development by structuring websites and web apps.</li>
+            </ol>
+ 
+ 
+        </div>
+    </section>
+
+    <section class="thirdsection">
+           <P style="background-color:block; font-size: 20px;">This is my portfolio. All the projects and details are given are real.</P>
+    <footer>
+
+
+   <p style="float:right; font-size: 18px;"">Copyright&copy;.All rights are Reserved.<br><br>Created by Vinod C A</p> 
+
+    </footer>  
+      
+    </section>
+
+    
+</body>
+ 
+</html> 
